@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F5F4F4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin-right: 28px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    color: #583D72;
+    font-size: 20px;
+}
+
+#full-stop {
+    color: #FF8F6F;
+}
+
+ul li:nth-child(6) {
+    padding: 10px 15px;
+    background: #583D72;
+    color: #Fff !;
+    border-radius: 30px;
+}
+
+#order{
+    color: #Fff;
+}
+
+#nav-item{
+    padding-top: 12px;
+}
+
+.hero-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text{
+    font-size: 30px;
+}
+
+.hero-text h2{
+    color: #583D72;
+    font-weight: bold;
+}
+
+#doorsteps{
+    color: #FF8F6F;
+}
+
+
+.hero-banner .hero-text .pincode {    
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 8px;   
+}
+
+.hero-banner .hero-text .pincode input {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgb(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 50%;
+    transition: box-shadow 100ms;
+}
+
+
+
+.cta{
+   text-align: center; 
+   padding-top: 30px;
+}
+
+.cta h2{
+    color: #583D72;
+    font-size: 30px;
+    font-weight: bold;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.info h3 {
+    color: #583D72;
+    font-weight: bold; 
+    text-align: center;   
+}
+
+.info p {
+    color: #583D72;   
+    font-size: 11px;
+    text-align: center;   
+}
+
+.info p span {
+    font-size: 50px;
+    font-weight:bolder;
+}
+
+#icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;       
+}
+
+#last-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;   
+    margin-bottom: 60px;
+}
+
+#last-section .last-image {
+    padding-right: 30px;
+}
+
+#last-section .order-message .order {
+    background-color: #583D72;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#last-section .order-message .order a {
+   font-size: 18px;
+   color: #Fff;
+   text-decoration: none;
+}
+
+.order-message h2 #order-food {
+    color: #FF8F6F;
+}
